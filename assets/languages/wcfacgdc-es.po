@@ -1,0 +1,144 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+msgid "Add New Card"
+msgstr "Agregar Nueva Tarjeta"
+
+msgid "Enable/Disable Payment Gateway"
+msgstr "Habilitar/Deshabilitar Pasarela de Pago"
+
+msgid "Enable FAC Payment Gateway"
+msgstr "Habilitar Pasarela de Pago FAC"
+
+msgid "Enable/Disable FAC Test Mode"
+msgstr "Habilitar/Deshabilitar Modo de Prueba FAC"
+
+msgid "Enable Test Mode"
+msgstr "Habilitar Modo de Prueba"
+
+msgid "Test mode enables you to test payments before going live. If you select this option, you must enter credentials for your TEST FAC account. When you are ready to accept live payments, uncheck this option and enter your PRODUCTION FAC account credentials."
+msgstr "El modo de prueba te permite realizar pruebas de pagos antes de ir en vivo. Si seleccionas esta opción, debes ingresar las credenciales de tu cuenta de prueba FAC. Cuando estés listo para aceptar pagos en vivo, desmarca esta opción e ingresa las credenciales de tu cuenta FAC DE PRODUCCIÓN."
+
+msgid "Payment Method"
+msgstr "Método de Pago"
+
+msgid "Authorize & Capture Payments Immediately"
+msgstr "Autorizar y Capturar Pagos Inmediatamente"
+
+msgid "Authorize then Capture Payments Manually Later"
+msgstr "Autorizar y Luego Capturar Pagos Manualmente"
+
+msgid "During authorization, the customer's card is verified and the balance is reserved on the card. During capture, the payment is taken from the customer's card and processed into the merchant's account. If you select \"Authorize & Capture Payments Immediately\" then both will be done during successful checkout on the website. However, if you select \"Authorize then Capture Payments Manually Later\" then the payment will be authorized on the customer's card, but you will have to manually capture the payment from the order page in Woocommerce."
+msgstr "Durante la autorización, se verifica la tarjeta del cliente y se reserva el saldo en la tarjeta. Durante la captura, el pago se toma de la tarjeta del cliente y se procesa en la cuenta del comerciante. Si seleccionas \"Autorizar y Capturar Pagos Inmediatamente\", ambos se realizarán durante el pago exitoso en el sitio web. Sin embargo, si seleccionas \"Autorizar y Luego Capturar Pagos Manualmente\", el pago se autorizará en la tarjeta del cliente, pero deberás capturar manualmente el pago desde la página del pedido en WooCommerce."
+
+msgid "Enable/Disable 3D Secure"
+msgstr "Habilitar/Deshabilitar 3D Secure"
+
+msgid "Enable 3D secure processing of payments"
+msgstr "Habilitar procesamiento seguro 3D de pagos"
+
+msgid "Enable/Disable Address Verification (AVS)"
+msgstr "Habilitar/Deshabilitar Verificación de Dirección (AVS)"
+
+msgid "Enable address verification checks"
+msgstr "Habilitar verificación de dirección"
+
+msgid "Only enable this option if Address Verification (AVS) is supported by your merchant account & bank."
+msgstr "Habilita esta opción solo si la Verificación de Dirección (AVS) es compatible con tu cuenta de comerciante y banco."
+
+msgid "Title of Payment Method"
+msgstr "Título del Método de Pago"
+
+msgid "This is the title of the payment option which the user selects during checkout."
+msgstr "Este es el título de la opción de pago que el usuario selecciona durante el pago."
+
+msgid "Description of Payment Method"
+msgstr "Descripción del Método de Pago"
+
+msgid "This contains the description which the user sees during checkout."
+msgstr "Esto contiene la descripción que el usuario ve durante el pago."
+
+msgid "Enable Tokenization"
+msgstr "Habilitar Tokenización"
+
+msgid "Allow customers to securely save their payment details for future checkout. This is required for card registration or subscription services."
+msgstr "Permite a los clientes guardar de forma segura los detalles de su tarjeta para futuros pagos. Esto es necesario para el registro de tarjetas o servicios de suscripción."
+
+msgid "Supported Card Types"
+msgstr "Tipos de Tarjetas Soportados"
+
+msgid "American Express"
+msgstr "American Express"
+
+msgid "Diners Club"
+msgstr "Diners Club"
+
+msgid "Discover/Novus"
+msgstr "Discover/Novus"
+
+msgid "JCB"
+msgstr "JCB"
+
+msgid "MasterCard"
+msgstr "MasterCard"
+
+msgid "Maestro"
+msgstr "Maestro"
+
+msgid "NCB Keycard"
+msgstr "NCB Keycard"
+
+msgid "Visa"
+msgstr "Visa"
+
+msgid "FAC Merchant ID"
+msgstr "ID del Comerciante FAC"
+
+msgid "The Merchant ID of your First Atlantic Commerce account."
+msgstr "El ID del Comerciante de tu cuenta en First Atlantic Commerce."
+
+msgid "FAC Merchant Processing Password"
+msgstr "Contraseña de Procesamiento del Comerciante FAC"
+
+msgid "The Processing Password of your First Atlantic Commerce account."
+msgstr "La Contraseña de Procesamiento de tu cuenta en First Atlantic Commerce."
+
+msgid "FAC Order ID Prefix (3 Characters)"
+msgstr "Prefijo de ID de Pedido FAC (3 Caracteres)"
+
+msgid "Enter a 3 digit order prefix to be used in the order IDs sent to FAC. This is sometimes useful if you use your FAC account to process transactions from multiple websites as it can allow you to easily pinpoint transactions from each website in your FAC merchant administration account."
+msgstr "Ingresa un prefijo de pedido de 3 dígitos que se utilizará en los ID de pedido enviados a FAC. Esto es útil si utilizas tu cuenta FAC para procesar transacciones de varios sitios web, ya que te permite identificar fácilmente las transacciones de cada sitio web en tu cuenta de administración de comerciante FAC."
+
+msgid "FAC Transaction Cache Time"
+msgstr "Tiempo de Caché de Transacciones FAC"
+
+msgid "The amount of seconds a FAC Transaction should take to be processed. Less times reduces the likelihood of possible security threats. 10 seconds recommended."
+msgstr "La cantidad de segundos que debería tomar una Transacción FAC para procesarse. Menos tiempos reducen la probabilidad de posibles amenazas de seguridad. Se recomiendan 10 segundos."
+
+msgid "Show FAC & 3D Secure Logos At Checkout"
+msgstr "Mostrar Logos de FAC y 3D Secure al Pagar"
+
+msgid "Enable Logos"
+msgstr "Habilitar Logos"
+
+msgid "When enabled, the powered by FAC, Visa Secure, and Mastercard SecureCode logos will appear under the credit card form during checkout. This may be a required for approval of your website by FAC."
+msgstr "Cuando está habilitado, los logotipos de powered by FAC, Visa Secure y Mastercard SecureCode aparecerán debajo del formulario de tarjeta de crédito durante el pago. Esto puede ser necesario para la aprobación de tu sitio web por parte de FAC."
+
+msgid "Force Display of Checkout Errors"
+msgstr "Forzar Mostrar Errores de Pago"
+
+msgid "Checkout error messages are not being displayed."
+msgstr "Los mensajes de error de pago no se están mostrando."
+
+msgid "Some themes do not display woocommerce error messages after the 3DS redirects. Check this box only if you notice that error messages are not displayed on your checkout page after a card is declined."
+msgstr "Algunos temas no muestran los mensajes de error de WooCommerce después de las redirecciones 3DS. Marca esta casilla solo si notas que los mensajes de error no se muestran en tu página de pago después de que se rechaza una tarjeta."

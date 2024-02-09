@@ -1,0 +1,31 @@
+{
+    "name": "igonics/fac-payments",
+    "description": "FAC 3DS and 3DS2 Integration",
+    "autoload": {
+        "psr-4": {
+            "FacPayments\\": "src/",
+            "FacPayments\\External\\": "lib/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gggordon",
+            "email": "ggordon@igonics.com"
+        }
+    ],
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FacPayments\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.7.*",
+        "codeception/codeception": "^4.1",
+        "codeception/module-phpbrowser": "^1.0.0",
+        "codeception/module-asserts": "^1.0.0",
+        "codeception/module-webdriver": "^2.0"
+    }
+}

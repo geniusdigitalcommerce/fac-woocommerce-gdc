@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => 'geniusdigitalcommerce/fac',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'appsero/client' => array(
+            'pretty_version' => 'v1.2.0',
+            'version' => '1.2.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../appsero/client',
+            'aliases' => array(),
+            'reference' => '5c3fdc4945c8680bca6fb01eee1ec5dc4f22de87',
+            'dev_requirement' => false,
+        ),
+        'geniusdigitalcommerce/fac' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'igonics/fac-payments' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../igonics/fac-payments',
+            'aliases' => array(),
+            'reference' => 'bbf00e6d8e941e54d4a5ce83d18cdaf8b726f43d',
+            'dev_requirement' => false,
+        ),
+    ),
+);

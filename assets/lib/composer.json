@@ -1,0 +1,26 @@
+{
+    "name": "geniusdigitalcommerce/fac",
+    "description": "FAC Payment Gateway for Woocommerce",
+    "authors": [
+        {
+            "name": "gggordon",
+            "email": "ggordon@igonics.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FacPayments\\External\\Woocommerce\\": "src/"
+        }
+    },
+    "require": {
+        "appsero/client": "^1.2",
+        "igonics/fac-payments": "dev-main"
+    },
+    "minimum-stability":"dev",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "D:\\wamp64\\www\\fac-php"
+        }
+    ]
+}
