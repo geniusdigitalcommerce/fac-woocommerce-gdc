@@ -4,7 +4,7 @@ Tags: woocommerce, first atlantic commerce, ecommerce, wordpress, ncb jamaica, s
 Requires at least: 4.5
 Tested up to: 6.3.1
 Requires PHP: 7.0
-Stable tag: 3.4
+Stable tag: 3.5
 License URI: https://geniusdigitalcommerce.com/fac-woocommerce
 
 
@@ -23,7 +23,9 @@ v3.1 March 10, 2023 - Minor Bug Fixes for Subscription Renewals
 v3.2 May 25, 2023 - Plugin enhancements for non 3DS transaction checks
 v3.3 September 25, 2023 - Improve plugin support for payment of orders and invoices manually created by admins.
 v3.4 September 25, 2023 - Improve plugin support for payment of orders and invoices manually created by admins.
-
+v3.5 Feb 13, 2024 - Spanish translations added
+v3.5 Feb 13, 2024 - Creation of a function for integration with Fac Gdc Registry
+v3.5 Feb 13, 2024 - Modification of the transaction api
 
 ## Privacy Policy
 GDC First Atlantic Commerce (FAC) Payment Gateway for WooCommerce - 3DS 2 uses [Appsero](https://appsero.com) SDK to collect some telemetry data upon user's confirmation. This helps us to troubleshoot problems faster & make product improvements.
