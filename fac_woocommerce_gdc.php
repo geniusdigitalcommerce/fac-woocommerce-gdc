@@ -6,7 +6,7 @@
 Plugin Name: First Atlantic Commerce Payment Gateway for WooCommerce by GDC
 Plugin URI: https://geniusdigitalcommerce.com/fac
 Description: Adds First Atlantic Commerce Payment Gateway to accept credit card payments on your Woocommerce store.
-Version: 3.4
+Version: 3.5
 Author: Genius Digital Commerce
 Author URI: https://geniusdigitalcommerce.com/
 WC requires at least: 4.5
