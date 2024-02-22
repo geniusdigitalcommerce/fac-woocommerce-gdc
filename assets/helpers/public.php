@@ -44,12 +44,12 @@ function fac_custom_url_handlers(){
     $gateway = new WC_FAC_Payment_Gateway_GDC();
 
 
-    if( is_404() && stripos(home_url( $wp->request ),'/fac-3ds-redirect' )!==false ){
+    if( stripos(home_url( $wp->request ),'/fac-3ds-redirect' )!==false ){
         $orderId = isset($_GET['order_id']) ? intval($_GET['order_id']) : 0; 
         $gateway->initiate3DSRedirect($orderId);
     }
     
-    if( is_404() && stripos(home_url( $wp->request ),'/fac-confirm-transaction' )!==false ){
+    if(stripos(home_url( $wp->request ),'/fac-confirm-transaction' )!==false ){
 
         $version = useOrElse(isset($_GET['3DS_VERSION']) ? intval($_GET['3DS_VERSION']) : 2,2);
         $postData = $_POST;
@@ -70,12 +70,14 @@ function fac_custom_url_handlers(){
             home_url()
         );
 
+
     }  
 }
 
-add_action('template_redirect','fac_custom_url_handlers');
+add_action('template_redirect','fac_custom_url_handlers', 10);
 
 add_action('wp_ajax_fac_remove_card_number','fac_remove_card_number');
+
 function fac_remove_card_number(){
     global $gdc_licence;
     if(!$gdc_licence->is_valid())return;
